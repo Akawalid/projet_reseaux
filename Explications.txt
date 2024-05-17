@@ -1,0 +1,23 @@
+Bonjour Monsieur,
+
+J'espère que vous allez bien. Vous trouverez 5 fichiers :
+
+- main.c
+- client_udp.c
+- client_tcp.c
+- serveur_tcp.c
+- serveur_udp.c
+
+Vous pouvez exécuter le TP de deux manières :
+
+1. **Première manière :** C'est la méthode standard. Lancez le fichier client_XXX.c dans le terminal, puis le serveur_XXX.c. Ensuite, envoyez des messages entre les deux.
+
+2. **Deuxième manière :** Lancez le serveur_XXX dans le terminal, puis exécutez main.c. Main.c vous permet d'utiliser les clients UDP/TCP de manière plus facile avec un affichage plus agréable. En résumé, main.c vous permet de choisir soit un client TCP, soit un client UDP et d'envoyer des messages en boucle. Le serveur est localhost.
+
+
+Pour une meilleure expérience en exécutant main.c, je vous recommande de lancer le terminal en mode plein écran (1366 * 768).
+
+Nous avons mis en place plusieurs contrôles de saisie, par exemple, la vérification si l'utilisateur a saisi le serveur en paramètre.
+
+Cordialement,
+
